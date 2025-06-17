@@ -68,7 +68,6 @@ detect-ai-vs-human/
 └── submission/
 └── submission.csv
 
-text
 
 ---
 
@@ -95,25 +94,25 @@ Principaux packages : torch, torchvision, albumentations, pandas, numpy, scikit-
 
 python src/train_resnet.py --epochs 30 --batch_size 64
 
-text
+
 
 ### Entraînement du modèle de fusion ConvNeXt+Swin
 
 python src/train_fusion.py --epochs 30 --batch_size 32
 
-text
+
 
 ### Entraînement du modèle FIRE (VAE + FFT)
 
 python src/train_fire.py --epochs 10 --batch_size 4
 
-text
+
 
 ### Génération d’une soumission Kaggle
 
 python src/generate_submission.py --model_path models/best_resnet.pth
 
-text
+
 
 ---
 
